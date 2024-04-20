@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-repeat: no-repeat;
+        padding: 10px;
+        background-attachment: fixed;
+        font-family: tahoma;
+        background-size: 100% 100%;
+        background-image: url(./fotos/IMG-FUNDO19.png);
+    }
+    .container{
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-image: url(./fotos/IMG-FUNDO02.png);
+        padding: 10px;
+        
+    }
+    .title-card{
+        padding: 10px;
+    }
+    .cardsl{
+        margin: 0 auto;
+        max-width: 300px;
+        
+        text-align: center;
+        border: 1px solid rgb(163, 163, 163);
+    }
+    .img-card{
+        width: 90px;
+    }
+    .photo{
+        background-color: white;
+        padding: 10px;
+        border-bottom: 1px rgb(212, 206, 206) solid;
+
+    }
+    .card{
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+    .title-text{
+        color: rgb(127, 127, 127);
+        padding: 20px;        
+        font-size: 11px;
+    }
+    .ra-cpf{
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+    .let{
+        font-size: 12px;
+        padding: 3px;
+        position: relative;
+        top: 10px;
+        color: white;
+    
+    }
+    .ra{
+        position: relative;
+    }
+    .dentro{
+        background-color: rgb(206, 205, 205);
+        max-width: 6pc;
+        margin: 0 auto;
+        border-radius: 3px;
+        padding-top: 10;
+        position: relative;
+        bottom: 10px;
+    }
+    input{
+        padding: 10px;
+    }
+    .span-ra{
+        background-color: rgb(90, 153, 255);
+        padding: 10px;
+        padding-right: 30px;
+        border-radius: 3px;
+        position: relative;
+        right: 4.5px;
+    }
+    .put{
+        padding: 10px;
+        width: 13pc;
+        border: none;
+        border-bottom: solid rgb(90, 153, 255);
+        border-radius: 10px;
+    }
+    ::placeholder{
+        color: rgb(163, 163, 163);
+        font-size: 13px;
+    }
+    input:focus, textarea:focus, select:focus {
+    outline: none;
+    }
+    .input-nome, .input-senha{
+        width: calc(100% - 20px); 
+        padding: 10px;
+        border-radius: 10px;
+        border-bottom: 2px solid rgb(90, 153, 255);
+        overflow-x: auto;
+    }
+    .form-uninove{
+        padding: 10px;
+    }
+    .none{
+        font-size: 12px;
+        color: rgb(107, 163, 254);
+    }
+    .text-form-baixo{
+        padding: 10px;
+    }
+    button{
+        width: calc(100% - 20px); 
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        border: none;
+        background-color: rgb(107, 163, 254);
+        color: white;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgb(90, 153, 255);
+    }
+    .termos{
+        font-size: 11px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .termos-text{
+        text-decoration: underline;
+        color: rgb(163, 163, 163);
+    }
+    .copy{
+        bottom: 0;
+        font-size: 8px;
+        color: rgb(163, 163, 163);
+    }    
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="card-formulario cardsl">
+            <div class="photo">
+                <img src="./fotos/logo-uni9-color.svg" alt=".." class="img-card">
+            </div>
+            <div class="card">
+                <div class="title-card">
+                    <div class="title-text">
+                        Realizar acesso por:
+                    </div>
+                    <div class="ra-cpf dentro">
+                        <div class="ra let">
+                           <span class="span-ra">RA</span>
+                        </div>
+                        <div class="cpf let">CPF</div>
+                    </div>
+                </div>
+        <div class="form-uninove">
+            <form action="#" method="post">
+                <input class="input-nome put" type="text" id="username" name="username" placeholder="Digite seu RA"><br>
+                <br>
+                <input class="input-senha put" type="password" id="password" name="password" placeholder="Digite sua senha"><br><br>
+              <div class="text-form-baixo">
+                <a class="none" href="">Esqueci minha senha / Primeiro acesso</a>
+            </div>
+            <button>ENTRAR</button>
+            <div class="termos">
+                <span class="termos-text">Termos de Uso</span>
+                <br>
+                <span class="termos-text">
+                    <p>Politicas de Privacidade</p>
+                </span>
+            </div>
+        </form>
+        </div>
+        <footer id="footer-card">
+            <span class="copy">
+                &copy 2024 - UNINOVE - Todos os direitos reservados
+            </span>
+        </footer>
+    </div> <!-- fim card --->
+</div>
+    
+    </div>
+</body>
+</html>
