@@ -11,4 +11,4 @@ Saldo nubank - https://nbkgit.netlify.app/
 
 <hr>
 
-*telas de aplicativos de login/ ou qualquer coisa relacionado a mobile.*
+> **Nota:** *telas de aplicativos de login/ ou qualquer coisa relacionado a mobile.*
