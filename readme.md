@@ -1,7 +1,6 @@
 
- Clones
+### :books: Clone
 
-![Build Status](URL_do_Shield)
 
 <div>
   
