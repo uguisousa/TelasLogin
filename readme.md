@@ -6,6 +6,5 @@ Saldo nubank - https://nbkgit.netlify.app/
 
 </div>
 
-<hr>
 
 > **aviso:** *telas de aplicativos de login/ ou qualquer coisa relacionado a mobile.*
